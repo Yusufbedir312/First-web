@@ -1,0 +1,236 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #5065a8    ;
+}
+
+main{
+    height: auto;
+    width: 960px;
+    /* border: solid black 2px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    width: 960px;
+    height: 190px; 
+ 
+}
+
+header img{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+nav{
+    width: 938px;
+    height: 48px; 
+    margin-left: 10px;
+    background-image: linear-gradient(	#6677B5 , #7080BA      );
+    border: solid black 1px;
+}
+
+.main-nav{
+    list-style: none;
+
+}
+
+.main-nav  li{
+    float: left;
+}
+
+.main-nav  li a{
+    width: 155.33333px;
+    height: 48px;
+    display: block;
+    border-right: solid 1px black;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:gold;
+    font-weight: bold;
+}
+
+.main-nav  li a.con{
+    border-right: none;
+}
+
+.main-nav  li a:hover{
+    color: whitesmoke;
+    background-color: #5065a8    ;
+}
+
+.products{
+    width: 940px;
+    height: 300px;
+    background-image: linear-gradient( #6677B5 , #5a6ba7  );
+    margin-left: 10px; 
+    margin-top: 7px;
+}
+
+.left-product{
+    width:  470px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.left-product img{
+    width:  400px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+
+}
+
+ .left-product h3{
+     font-family: Verdana;
+     font-weight: bold;
+     font-size: 25px;
+     color: gold;
+     text-transform: uppercase;
+     text-align: center;
+     position: absolute;
+     left: 150px; 
+}
+ .left-product .furn{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: justify;
+    position: absolute;
+    left: 10px; top: 45px;
+    margin-right: 10px;
+}
+
+
+
+.right-product{
+    width:  470px;
+    height: 300px;
+    position: relative;
+    float: right;
+}
+
+.right-product h2{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: gold;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+   right: 150px; 
+}
+
+.right-product .Elc{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: justify;
+    position: absolute;
+    right: 10px; top: 45px;
+    margin-left: 10px;
+}
+
+.right-product img{
+    width: auto;
+    height: 200px;;
+    margin-left: 70px;
+    margin-top: 100px;
+
+}
+
+.Offer{
+    width: 940px;
+    height: 300px;
+    background-image: linear-gradient(   #5a6ba7 , #6677B5 );
+    margin-left: 10px; 
+    margin-top: 7px;
+    position: relative;
+}
+
+.Offer .PIC{
+    width: 470px;
+    height: 250px;
+
+    float: left;
+
+}
+
+.Offer .PIC img{
+    width: 400px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.Offer .Info{
+    width: 470px;
+    height: 250px;
+
+    float: left;
+
+}
+
+.Offer .Info h1{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 30px;
+    color: gold;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+   right: 200px; top: 25px;
+}
+
+.Offer .Info p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: justify;
+    position: absolute;
+    right: 15px; top: 100px;
+    margin-left: 490px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: honeydew;
+}
+
+footer span{
+    font-weight: bold;
+    color: goldenrod; 
+}
+
+
+.footer-nav{
+    list-style: none;
+} 
+
+.footer-nav li{
+    display: inline-block;
+    border-right: 1px solid silver;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-nav li a{
+    color: snow;
+    text-decoration: none;
+}
+
+.footer-nav li a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
